@@ -8,10 +8,17 @@ module.exports = defineConfig({
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
   //TODO: Добавить алюр
-  reporter: [['html'], ['line'], ['']],
+  reporter: [['html'], ['line'],
+  ["allure-playwright", {
+    detail: true,
+    suiteTitle: true,
+    environmentInfo: {
+      node_version: process.version,
+    }
+  }]],
 
   use: {
-    baseURL: 'http://127.0.0.1:3000',
+    baseURL: 'http://users.bugred.ru/',
     trace: 'on-first-retry',
   },
 
@@ -20,11 +27,12 @@ module.exports = defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    }
+    /*
+        {
+          name: 'firefox',
+          use: { ...devices['Desktop Firefox'] },
+        }
+    */
   ]
 });
 
