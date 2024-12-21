@@ -1,0 +1,19 @@
+{
+   "base": {
+      "logo": "",
+      "project": "diplom",
+      "environment": "PROD",
+      "comment": "Дипломный прогон",
+      "reportLink": "https://jenkins.autotests.cloud/job/myDiplom/allure/",
+      "language": "ru",
+      "allureFolder": "allure-report",
+      "enableChart": true,
+      "enableSuitesPublishing": false,
+      "customData": {}
+   },
+   "telegram": {
+      "token": "${process.env.TgToken}",
+      "chat": "${process.env.TgChatID}",
+      "replyTo": ""
+   }
+}
