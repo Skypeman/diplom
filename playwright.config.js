@@ -7,7 +7,6 @@ module.exports = defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-  //TODO: Добавить алюр
   reporter: [['html'], ['line'],
   ["allure-playwright", {
     detail: true,
@@ -26,13 +25,7 @@ module.exports = defineConfig({
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
-    },
-    /*
-        {
-          name: 'firefox',
-          use: { ...devices['Desktop Firefox'] },
-        }
-    */
+    }
   ]
 });
 

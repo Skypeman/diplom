@@ -44,7 +44,7 @@ test.describe('E2E тесты', async () => {
       await app.loginPage.loginUser();
       actualName = await app.mainPage.getElementText(await app.mainPage.userMenu);
 
-      await step(`Пользователь успешно зарегистрирован`, async () => {
+      await step(`Пользователь успешно авторизован`, async () => {
          expect(actualName).toEqual(expectName);
       })
    });
