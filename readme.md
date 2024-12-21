@@ -1,4 +1,4 @@
-<h1 align="center">Проект по автоматизации тестирования приложения <a href="http://users.bugred.ru/">users.bugred.ru/</a> с использованием Playwright </h1> 
+<h1 align="center">Проект по автоматизации тестирования приложения <a href="http://users.bugred.ru/">users.bugred.ru</a> с использованием Playwright </h1> 
 
 
 ##  Содержание
