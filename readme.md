@@ -1,4 +1,4 @@
-<h1 align="center">Проект по автоматизации тестирования с использованием Playwright</h1> 
+<h1 align="center">Проект по автоматизации тестирования приложения <a href="http://users.bugred.ru/">users.bugred.ru/</a> с использованием Playwright </h1> 
 
 
 ##  Содержание
@@ -28,7 +28,6 @@
 Тесты разработаны на языке <code>JavaScript</code> с использованием фреймворка для автоматизации тестирования <code>[Playwright](https://playwright.dev)</code>. При проектировании тестов был применён паттерн PageObject.
 
 Для организации удаленного запуска предусмотрены интеграции с <code>Jenkins</code> и <code>GitHub Actions</code>. Это позволяет автоматически генерировать Allure-отчеты и отправлять результаты тестирования в <code>Allure TestOps</code>. Кроме того, с помощью бота результаты отправляются в <code>Telegram</code>.
-
 
 ____
 <a id="cases"></a>
