@@ -78,29 +78,22 @@ npm run allureOpen
 <a id="jenkins"></a>
 ## </a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/myDiplom/"> Jenkins </a>
 Для доступа в <code>Jenkins</code> потребуется пройти регистрацию на платформе [Jenkins](https://jenkins.autotests.cloud/). Для запуска сборки необходимо нажать кнопку <code>Build now</code>.
-![chrome_J8fvZ6vegn](https://github.com/user-attachments/assets/d644f993-57c0-478b-863a-2bd9520247ee)
+![Jenkins](https://github.com/user-attachments/assets/61e48248-d0f4-4fae-8fa6-eab5403d3325)
+
 После завершения сборки в разделе <code>Build History</code> напротив номера сборки появятся ссылки на Allure report и Allure testOps.
 ____
 <a id="allureReport"></a>
 ## </a> Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/myDiplom/3/allure/"> Allure-отчета </a>
-![chrome_1nQCJ00yKB](https://github.com/user-attachments/assets/a6d73e7d-2dd0-4d70-9ea9-f32d1d88186a)
+![Allure report](https://github.com/user-attachments/assets/0d4de912-6381-4975-97c4-5a2dec7c4fae)
+
 
 ____
 <a id="allureTestOpsReport"></a>
 ## </a> Пример <a target="_blank" href="https://allure.autotests.cloud/launch/43368"> результата запуска в Allure TestOps </a>
-![chrome_HHDuETHS57](https://github.com/user-attachments/assets/d66197e7-8fe8-4e21-814f-9959366d1592)
+![Allure TestOps](https://github.com/user-attachments/assets/12417a5d-1556-4b46-a6f1-6081b9d7ae1c)
 
 ____
 <a id="tg"></a>
 ## Уведомление в Telegram
 После завершения сборки <code>Telegram</code>-бот автоматически присылает сообщение в чат.
-
-![Telegram_9zqmwTdqnN](https://github.com/user-attachments/assets/605c3f31-e836-489d-92e7-8d0d8da8d6a4)
-
-
-
-Viewport
-Window
-×
-×
-×
+![Tg bot](https://github.com/user-attachments/assets/389f57a4-b84c-4997-9146-2ae55db4f9f8)
