@@ -23,6 +23,9 @@ jobs:
         run: npx playwright install --with-deps
       - name: Run PW tests
         run: npx playwright test
+        env:
+         TgToken: ${{ secrets.TGTOKEN }}
+         TgChatID: ${{ secrets.TGCHATID }}
 
       - name: Upload PW results  
         uses: actions/upload-artifact@v4
